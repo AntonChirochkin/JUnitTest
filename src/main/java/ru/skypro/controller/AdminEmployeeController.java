@@ -5,7 +5,7 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import ru.skypro.DTO.EmployeeDTO;
-import ru.skypro.EmployeeService;
+import ru.skypro.service.EmployeeService;
 
 import java.io.IOException;
 import java.io.InputStream;
