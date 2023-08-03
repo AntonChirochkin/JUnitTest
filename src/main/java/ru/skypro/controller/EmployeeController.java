@@ -1,9 +1,9 @@
 package ru.skypro.controller;
 
 import org.springframework.web.bind.annotation.*;
-import ru.skypro.EmployeeDTO;
+import ru.skypro.DTO.EmployeeDTO;
 import ru.skypro.DTO.EmployeeFullInfo;
-import ru.skypro.EmployeeService;
+import ru.skypro.service.EmployeeService;
 import java.util.List;
 
 @RestController
